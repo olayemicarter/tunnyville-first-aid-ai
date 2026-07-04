@@ -61,7 +61,7 @@ def home():
 
 
 @app.route("/webhook", methods=["GET", "POST"])
-def webhook():
+def whatsapp_webhook():
     # 1. Handle WhatsApp Webhook Verification (GET Request)
     if request.method == "GET":
         mode = request.args.get("hub.mode")
