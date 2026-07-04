@@ -1,0 +1,5 @@
+Flask==3.0.*
+requests==2.32.*
+google-genai>=1.0.0
+google-cloud-storage
+gunicorn==22.0.0.*
