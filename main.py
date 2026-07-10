@@ -60,7 +60,7 @@ def home():
     return "WhatsApp Webhook Server is running.", 200
 
 
-@app.route("/webhook", methods=["GET", "POST"])
+@app.route("/whatsapp_webhook", methods=["GET", "POST"])
 def whatsapp_webhook(request):
     # 1. Handle WhatsApp Webhook Verification (GET Request)
     if request.method == "GET":
